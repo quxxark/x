@@ -40,7 +40,7 @@ class MainWindow(QWidget):
 
             # How buttons will behave when the window will be resized
             # horizontal behavior :: vertical behavior
-            btn.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed) 
+            btn.setSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed) 
             btn.setStyleSheet(self._button_style())
 
 
